@@ -14,10 +14,7 @@ public class Flamethrower {
 
 	public static void flamethrower(boolean input) throws FlameException{
 		if(input) {
-			throw new FlameException("woosh!            /\\/\\" 
-		            + "\nException in thread \"main\" notDefault.FlameException:          /\\    /\\/    \\"
-					+ "\nException in thread \"main\" notDefault.FlameException: _____/\\_/  \\/\\/        |"
-					+ "\nException in thread \"main\" notDefault.FlameException: ______________________/");
+			throw new FlameException();
 		}
 	}
 }
